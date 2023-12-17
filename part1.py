@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 def wait_element(parent, by_, str_, attempt=0, sleep=1.0, single=True, hasbool=False):
     '''
-    Процедура ожидает появления элемента с заданым колличеством попыток и временем ожидания.
+    Функция ожидает появления элемента с заданым колличеством попыток и временем ожидания.
 
     Аргументы:
     parent - объект, в котором происходит поиск;
